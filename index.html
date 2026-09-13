@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Exercise4</title>
     <link rel="icon" href="./images_ex4/images/4.jpg">
 </head>
 <body >
     <section id="Gallery" class="py-5">
-    <div class="row row-gap-5 w-100">
+        <div class="container">
+    <div class="row row-gap-5">
         <div class="col-sm-6 col-lg-4 box">
             <div class="item">
                 <img src="./images_ex4/images/1.jpg" class="img-fluid " alt="">
@@ -85,7 +87,7 @@
             </div>
         </div>
     </div>
-
+    </div>
 </section>
 <div class="popup">
     <div class="box">
@@ -93,8 +95,10 @@
         <i class="exit fas fa-times close"></i>
         <i class="next fas fa-chevron-right next"></i>
         <i class="prev fas fa-chevron-left prev"></i>
-        <ul class="indicators d-flex justify-content-around w-100 list-unstyled position-absolute">
+        <div class="ulBox position-absolute">
+        <ul class="indicators d-flex justify-content-around column-gap-3 list-unstyled ">
         </ul>
+    </div>
     </div>
 </div>
     <script src="./js/bootstrap.js"></script>
